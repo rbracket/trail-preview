@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Klein Point Overlook Preview</title>
+		<meta name="author" content="Katie Urey">
+		<!-- CSS -->
+		<link rel="stylesheet" media="screen" rel="stylesheet" type="text/css"  href="mapillary.css">
+
+		<!-- Javascripts -->
+		<script src="//dga406zepc8gy.cloudfront.net/javascripts/mapillary.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<head>
+			<h1>Learning to embed a Mapillary map and image </h1>
+		</head>
+		<section>
+			<h3>Klein Point, previewed</h3>
+			<p>
+				Klein Point overlooks the Willamette River from a paved viewpoint.
+				A visitor hears water lapping on rocks, boats passing, and some automobile traffic from downtown Milwaukie.
+			</p>
+			<p>
+				Notes on reaching the trail from the Trolley Trail.
+			</p>
+			<p>
+				<a href="http://accessrecreation.org" target="_blank" > for accessrecreation.org</a>
+			</p>
+			<div id='kp' >
+				<img src='kpplaceholder.png' height="400px" alt="placeholder for embeded image" >
+				<p>
+					<cite>Mapillary image </cite>
+				</p>
+			</div>
+			<!--Klein Point -->
+			<script>
+				(function() {
+					Mapillary.init('kp', {
+						image : YOu8z8VbzfN38sToGtahfg,
+						width : 320
+					});
+				})();
+			</script>
+
+		</section>
+
+		<section>
+
+			<h3>One difficult street crossing in the Lloyd District, Portland, Oregon. </h3>
+			<p>
+				Holladay Park Plaza is a continuing care retirement community. NE 16th Avenue and parking lots separate
+				Holladay Park Plaza residents from direct access to Lloyd Center.
+			</p>
+
+			<p>
+				Lloyd Center has- covered walking areas, an indoor ice rink, a food court, a restuarant, movie theaters, department stores, including
+				Sears, Macy's and Nordstroms.
+			</p>
+
+			<p>
+				The shortest route from Holladay Park Plaza's main entrance is west, across NE 16th Ave, through a parking lot, and into Sears.   To take this route is to jaywalk and to scramble the few feet
+				up and over a planted median strip.
+				The route is popular and the legal alternatives seem inconvenient.
+			</p>
+			<a href="http://GoLloyd.org" target="_blank" >for GoLloyd.org</a>
+
+			<div id='hpp'></div>
+			<!--Holladay Park Plaza -->
+
+			<!-- Now add Mapillary things -->
+		<script>
+			(function() {
+				Mapillary.init('hpp', {
+					image : ekQ9cBPQ2wnNsyuKIIUqQQ,
+					width : 320
+				});
+			})();
+		</script>
+	</section>
+	</body>
+</html>
